@@ -33,10 +33,10 @@ cd python
 pip install .
 ```
 
-(3) Place the environment file Reacher_Linux.zip in the p2_continous-control/ folder and unzip the file:
+(3) Place the environment file Tennis_Linux.zip in the p3_collab-competition/ folder and unzip the file:
 
 ```bash
-$ unzip Reacher_Linux.zip
+$ unzip Tennis_Linux.zip
 ```
 
 (4)  Launch Jupyter notebook
@@ -44,7 +44,7 @@ $ unzip Reacher_Linux.zip
 ```bash
 $ jupyter notebook
 ```
-## Files inside p2_continous-control
+## Files inside p3__collab-competition/
 
 ```bash
 TD3_agent.py - contains the Agent .
