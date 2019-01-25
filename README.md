@@ -16,9 +16,9 @@ The task is episodic and is considered solved when the agents get an average sco
 
 1. Download the environment:  
 
-    - Linux: [click here]()
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     
-To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) to obtain the environment.
+To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the environment.
 
 (1) Create and activate a Python 3.6 environment using Anaconda:
    
@@ -51,13 +51,13 @@ TD3_agent.py - contains the Agent .
 
 model.py -  contains the Pytorch neural network (actor and critic).
 
-Continuous_Control.ipynb -  contains the code.
+Tennis.ipynb -  contains the code.
 
-checkpoint_Actor.pth -  contains the weights of the solved actor network
+checkpoint_actor_1.pth -  contains the weights of the solved actor network
 
-checkpoint_Critic1.pth - contains the weights of the solved critic1 network
+checkpoint_critic_1.pth - contains the weights of the solved critic1 network
 
-checkpoint_Critic2.pth - contains the weights of the solved critic2 network
+checkpoint_critic_2.pth - contains the weights of the solved critic2 network
 
 Report.pdf - the project report
 ```
