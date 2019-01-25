@@ -28,7 +28,7 @@ To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual
 (2) Clone repository and install dependencies
 
 ```bash
-git clone https://github.com/psmenon/Continous-Control.git
+git clone https://github.com/psmenon/Collaboration-and-Competition.git
 cd python
 pip install .
 ```
