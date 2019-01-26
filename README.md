@@ -47,17 +47,21 @@ $ jupyter notebook
 ## Files inside p3__collab-competition/
 
 ```bash
-TD3_agent.py - contains the Agent .
+DDPG_Agent.py - contains the ddpg Agent.
+
+MADDPG.py - contains the multiagent class
 
 model.py -  contains the Pytorch neural network (actor and critic).
 
 Tennis.ipynb -  contains the code.
 
-checkpoint_actor_1.pth -  contains the weights of the solved actor network
+actor_agent_1.pth -  contains the weights of the solved actor network for agent 1
 
-checkpoint_critic_1.pth - contains the weights of the solved critic1 network
+actor_agent_2.pth -  contains the weights of the solved actor network for agent 2
 
-checkpoint_critic_2.pth - contains the weights of the solved critic2 network
+critic_agent_1.pth - contains the weights of the solved critic network for agent 1
+
+critic_agent_2.pth - contains the weights of the solved critic network for agent 2
 
 Report.pdf - the project report
 ```
